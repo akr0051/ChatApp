@@ -97,6 +97,13 @@ export default class Chat extends React.Component {
     );
   }
 
+  renderInputToolbar(props) {
+		if (this.state.isConnected === false) {
+		} else {
+			return <InputToolbar {...props} />;
+		}
+	}
+
   async getMessages() {
     let messages = [];
     try {
