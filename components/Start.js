@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, ImageBackground } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, ImageBackground, KeyboardAvoidingView  } from 'react-native';
 
 // import the background image for start screen
 const image = require('../assets/Background_Image.png');
