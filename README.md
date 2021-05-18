@@ -1,3 +1,5 @@
+# Chat App
+
 ## **Description**
 
 ChatApp is a chat app for mobile devices built with React Native and developed using Expo.
